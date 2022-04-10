@@ -1,0 +1,257 @@
+
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style type="text/css">
+		.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0,0.5)
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+		background-color: rgba(0,0,0,0.4);
+	}
+}
+.navbar{background-color:rgba(0,0,0,0.4);}
+     #imgdiv{margin:0px 100px;}
+
+     P{color: #e89000;}
+     .items{width: 100%;
+     	display: flex;
+     	justify-content: center;
+     	margin: 30px 0px;
+     }
+     .items p{color: #0000ee;
+     	text-align: center;
+     }
+     	 .item-1{margin-right:20px; 
+     		
+     		}
+     	 .item-2{margin:0px 20px;
+
+     	 }
+     		.item-3{margin:0px 20px;
+     		}
+     		.footer{ background-color: #000000;}
+
+			p{display: inline-block;}
+
+			.cu{padding:  20px 20px; }
+
+		.lfb{padding:  20px 20px;}
+
+		.ql{padding:  20px 20px;}
+
+		.ns{padding : 20px 20px;}
+
+		.wp{color:#e89000;}
+
+		.fd{color: #ffffff;display:flex;
+		 margin:  30px 200px;}
+
+		.ca{color: #e89000;
+			padding:40px 225px;}
+
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Responsive Homepage design with Bootstrap 4 and Animate css</title>
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light ">
+		<div class="container">
+			<a class="navbar-brand" href="#">GA</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ourhotel.html">OUR HOTEL</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">WEDDING</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">EVENTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="partner.html">PARTNER WITH US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+			<li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="First slide" class="d-block w-100" src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?cs=srgb&dl=pexels-nikolaj-erema-297984.jpg&fm=jpg">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated bounceInRight" style="animation-delay: 1s">MUMBAI HOTEL</h5>
+					<p class="animated bounceInLeft" style="animation-delay: 2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+					<p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">More Info</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Second slide" class="d-block w-100" src="https://images.unsplash.com/photo-1612152605347-f93296cb657d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated slideInDown" style="animation-delay: 1s">DEHLI HOTEL</h5>
+					<p class="animated fadeInUp" style="animation-delay: 2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+					<p class="animated zoomIn" style="animation-delay: 3s"><a href="#">More Info</a></p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="Third slide" class="d-block w-100" src="https://www.hospitalitynet.org/picture/xxl_153129625.jpg?t=20210716123927">
+				<div class="carousel-caption d-none d-md-block">
+					<h5 class="animated zoomIn" style="animation-delay: 1s">HYDRABAD HOTEL</h5>
+					<p class="animated fadeInLeft" style="animation-delay: 2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nulla, tempore. Deserunt excepturi quas vero.</p>
+					<p class="animated zoomIn" style="animation-delay: 3s"><a href="#">More Info</a></p>
+				</div>
+			</div>
+		</div><a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+	</script>
+	<div id="imgdiv">
+		<p>OUR BEST SERVICES FOR YOU.......</p>
+		<h1>OUR HOTELS</h1>
+		<div class="items">
+			<div class="item-1">
+			<img src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?cs=srgb&dl=pexels-nikolaj-erema-297984.jpg&fm=jpg" width="100%">
+			<p><strong>CT stay-sikandarpur</strong><br>ct lite DLF phase-1 IS modish<br>accomdation option located in DLF
+			</p>
+		    </div>
+			<div class="item-2">
+			<img src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?cs=srgb&dl=pexels-nikolaj-erema-297984.jpg&fm=jpg" width="100%">
+			<p><strong>CT Stay Golf Course Road</strong><br>CT Kenth Hari Resort is Located Dholpur<br>in Rajasthan. allowing</p>
+		    </div>
+		    <div class="item-3">
+			<img src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?cs=srgb&dl=pexels-nikolaj-erema-297984.jpg&fm=jpg" width="100%">
+			<p><strong>CT Kenth Hari Resort-Dholpur</strong><br>Come home to Arrise Resort..come home<br>to pampering relexation</p>
+		    </div>
+			
+		</div>------
+		<div class="items">
+			<div class="item-1">
+			<img src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?cs=srgb&dl=pexels-nikolaj-erema-297984.jpg&fm=jpg" width="100%">
+			<p><strong>CT stay-sikandarpur</strong><br>ct lite DLF phase-1 IS modish<br>accomdation option located in DLF
+			</p>
+		    </div>
+			<div class="item-2">
+			<img src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?cs=srgb&dl=pexels-nikolaj-erema-297984.jpg&fm=jpg" width="100%">
+			<p><strong>CT Stay Golf Course Road</strong><br>CT Kenth Hari Resort is Located Dholpur<br>in Rajasthan. allowing</p>
+		    </div>
+		    <div class="item-3">
+			<img src="https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?cs=srgb&dl=pexels-nikolaj-erema-297984.jpg&fm=jpg" width="100%">
+			<p><strong>CT Kenth Hari Resort-Dholpur</strong><br>Come home to Arrise Resort..come home<br>to pampering relexation</p>
+		    </div>
+			
+		</div>
+	</div>
+	<div class="footer">
+		<div class="fd">
+		<div class="cu"><h2>CONTACT US</h2><hr>
+			<p>H.NO.395-D,Besudes Footbal<br>House Sunday Nagar Raipur</p>
+			<p>+91-7987118319/7974235532</p>
+			<p>info#gahotelsand resorts.com</p></div>
+		<div class="lfb"><h2>LATEST FROM BLOG</h2><hr>
+			<p class="wp">Work Passionatelly</p><p>JANUARY 6 2022#</p>
+		<p class="wp">Work Passionatelly</p><p>JANUARY 6 2022#</p></div>
+		<div class="ql"><h2>QUICK LINKS</h2><hr>
+			<p>HOME</p><p>ABOUT HOTELS</p><p>BLOG POST</p><p>CONTACT Us</p></div>
+		<div class="ns"><h2>NEWSLETER</h2><hr><p>Enter your email and receive the latest news from us. We'll never here your email address</p><input type="email" name="email"></div>
+	</div>
+		  <p class="ca">Design and Developed by xyz technologis Pvt.Ltd@2022<span class="fa fa-copyright"></span> </p>	
+	</div>
+</body>
+</html>
