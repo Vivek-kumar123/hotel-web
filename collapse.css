@@ -1,0 +1,61 @@
+body{background-image:url('https://images.pexels.com/photos/673648/pexels-photo-673648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-repeat: no-repeat; 
+text-transform: capitalize;
+font-family: sans-serif;
+box-sizing: border-box;
+background-size:cover;
+
+}
+*{margin: 0px;
+padding: 0px;
+}
+.menu-bar{
+	background: rgb(0,100,0);
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+      list-style: none;
+      color: #fff;                    }
+.menu-bar ul li{ width: 120px;
+               margin: 15px;
+               padding: 15px;
+               }
+             .menu-bar ul li a{text-decoration: none;
+             color: #fff;}  
+ .active, .menu-bar ul li:hover{background: #2bab0d;
+ 	border-radius: 3px;}
+.menu-bar fa{margin-right: 8px;}
+.sub-menu1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu1{
+	display: block;
+	position: absolute;
+	background-color: rgb(0,100,0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0px;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu1 ul li a:hover{color: #b2ff00;
+}
+.login{margin-top: 400px;
+	padding: 20px 30px;
+background-image:conic-gradient(red,green,blue,yellow,white,cyan,lightblue);}
+.footer{background-color:#000000;
+color: #ffffff;
+display: flex;}
+.footer p,h3{
+padding: 10px;
+margin: 20px;}
